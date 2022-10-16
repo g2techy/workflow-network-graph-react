@@ -1,0 +1,27 @@
+{
+  "appId:": 103962,
+  "appName": "Data Asset Invnetory",
+  "workflow": {
+    "workflowName": "Publish Logs to GTI Databus",
+    "consumers": [
+      {
+        "appId": 548963,
+        "appName": "Consumer App"
+      },
+      {
+        "appId": 124568,
+        "appName": "Consumer App-2"
+      }
+    ],
+    "publishers": [
+      {
+        "appId": 14585,
+        "appName": "Asset Inventory"
+      },
+      {
+        "appId": 1252561,
+        "appName": "Publisher App-2"
+      }
+    ]
+  }
+}

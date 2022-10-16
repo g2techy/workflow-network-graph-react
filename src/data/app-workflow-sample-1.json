@@ -1,0 +1,35 @@
+{
+  "appId:": 103962,
+  "appName": "Data Asset Invnetory",
+  "workflow": {
+    "workflowName": "CIA Evergreen Process",
+    "consumers": [
+      {
+        "appId": 45328,
+        "appName": "Configuration Information Automation"
+      },
+      {
+        "appId": 235454,
+        "appName": "Data Catalog"
+      },
+      {
+        "appId": 213545,
+        "appName": "Business Glossery"
+      },
+      {
+        "appId": 125765,
+        "appName": "Seal Application Modules"
+      }
+    ],
+    "publishers": [
+      {
+        "appId": 14585,
+        "appName": "Asset Inventory"
+      },
+      {
+        "appId": 125256,
+        "appName": "Configuration Information Automation"
+      }
+    ]
+  }
+}

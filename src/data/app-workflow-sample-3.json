@@ -1,0 +1,27 @@
+{
+  "appId:": 103962,
+  "appName": "Data Asset Invnetory",
+  "workflow": {
+    "workflowName": "Seal Application Componet Updates",
+    "consumers": [
+      {
+        "appId": 45328,
+        "appName": "Configuration Information Automation"
+      },
+      {
+        "appId": 14585,
+        "appName": "Asset Inventory"
+      }
+    ],
+    "publishers": [
+      {
+        "appId": 236789,
+        "appName": "Publisher App"
+      },
+      {
+        "appId": 14585,
+        "appName": "Asset Inventory"
+      }
+    ]
+  }
+}
